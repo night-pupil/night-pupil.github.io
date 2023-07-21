@@ -3,7 +3,7 @@
     <head>
   <!-- 元数据 -->
   <meta charset="utf-8">
-  
+  <link rel="icon" href="../images/avatar.png">
   
   <title>Hello World | </title>
   
@@ -24,10 +24,12 @@
 <meta property="og:site_name">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://night-pupil.github.io/images/avatar.png">
 <meta property="article:published_time" content="2023-07-18T08:20:11.943Z">
 <meta property="article:modified_time" content="2023-07-18T08:20:11.943Z">
 <meta property="article:author" content="night-pupil">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://night-pupil.github.io/images/avatar.png">
   
   <!-- 站点验证相关 -->
   
@@ -266,7 +268,7 @@
             
             
             <div class="nav-next clearfix">
-                <a title=" 测试" href="/001/">下一篇 &gt;</a>
+                <a title=" night-pupil的第一篇blog" href="/001/">下一篇 &gt;</a>
             </div>
             
         </nav>
@@ -303,7 +305,7 @@
                 文章
             </span>
             <span class="count">
-                3
+                2
             </span>
         </a>
         <a class="meta-item" href="/categories/">
@@ -319,7 +321,7 @@
                 标签
             </span>
             <span class="count">
-                2
+                1
             </span>
         </a>
     </div>
@@ -334,7 +336,7 @@
   <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
     <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
       <div class="tag-clouds">
-        <a href="/tags/2/" style="font-size: 0.6em;">2</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 0.6em;">测试</a>
+        <a href="/tags/night-pupil%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/" style="font-size: 0.6em;">night-pupil的第一篇blog</a>
       </div>
   </aside>
 
@@ -348,13 +350,7 @@
         
           
           
-            <a class="list-group-item" href="/002/"><i class="fa  fa-book"></i> 2</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/001/"><i class="fa  fa-book"></i> 测试</a>
+            <a class="list-group-item" href="/001/"><i class="fa  fa-book"></i> night-pupil的第一篇blog</a>
             
           
         
@@ -405,7 +401,7 @@
                         </div>
                         <div>
                             <li>Powered by <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a></li>
-                            <li>Hosted on <a href="https://github.io" target="_blank">Github Pages</a></li>
+                            <li>Hosted on <a href="https://github.com/night-pupil" target="_blank">Github Pages</a></li>
                         </div>
                         <div>
                             
@@ -430,6 +426,10 @@
                     </div>
                 
                 
+                    <div class="box theme-box" id="snow-switch">
+                        <span class="fa fa-snowflake-o"></span>
+                    </div>
+                
                 
             </div>
             <div class="box gotop-box">
@@ -450,6 +450,11 @@
     window.kr.notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));
     window.kr.siteRoot = "/";
 </script>
+
+    <div>
+        <canvas id="snow"></canvas>
+        <script async src="/js/snow.min.js"></script>
+    </div>
 
 
     <script async src="/js/candy.min.js"></script>

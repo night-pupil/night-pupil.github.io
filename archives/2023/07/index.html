@@ -3,7 +3,7 @@
     <head>
   <!-- 元数据 -->
   <meta charset="utf-8">
-  
+  <link rel="icon" href="../images/avatar.png">
   
   <title>档案馆: 2023-07 | </title>
   
@@ -24,8 +24,10 @@
 <meta property="og:site_name">
 <meta property="og:description" content="night-pupil">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://night-pupil.github.io/images/avatar.png">
 <meta property="article:author" content="night-pupil">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://night-pupil.github.io/images/avatar.png">
   
   <!-- 站点验证相关 -->
   
@@ -146,7 +148,7 @@
             <h2 class="title-h2 text-center">文章归档</h2>
             <div id="archives">
               <div class="post-block archive post" style="margin-left: 2em;">
-                <h3 class="archive-page-counter">当前共有 3 篇文章 (゜-゜)つロ 干杯~</h3>
+                <h3 class="archive-page-counter">当前共有 2 篇文章 (゜-゜)つロ 干杯~</h3>
                 <div class="posts-collapse">
                   
                   
@@ -163,37 +165,15 @@
                         <header class="post-header">
                           <h3 class="post-title">
                             
-                                <a class="post-title-link" href="/002/" itemprop="mainEntityOfPage">
-                                  <span itemprop="name headline">2</span>
-                                </a>
-                            
-                          </h3>
-                          <div class="post-meta">
-                            <time class="post-time" itemprop="datePublished"
-                                  datetime="2023-07-18T11:26:33.000Z">
-                              07-18
-                            </time>
-                          </div>
-                        </header>
-                      </article>
-                    
-                  
-                    
-                    
-                    
-                      <article class="post" itemscope itemtype="https://schema.org/Article">
-                        <header class="post-header">
-                          <h3 class="post-title">
-                            
                                 <a class="post-title-link" href="/001/" itemprop="mainEntityOfPage">
-                                  <span itemprop="name headline">测试</span>
+                                  <span itemprop="name headline">night-pupil的第一篇blog</span>
                                 </a>
                             
                           </h3>
                           <div class="post-meta">
                             <time class="post-time" itemprop="datePublished"
-                                  datetime="2023-07-18T10:59:39.000Z">
-                              07-18
+                                  datetime="2023-07-21T10:59:39.000Z">
+                              07-21
                             </time>
                           </div>
                         </header>
@@ -262,7 +242,7 @@
                 文章
             </span>
             <span class="count">
-                3
+                2
             </span>
         </a>
         <a class="meta-item" href="/categories/">
@@ -278,7 +258,7 @@
                 标签
             </span>
             <span class="count">
-                2
+                1
             </span>
         </a>
     </div>
@@ -291,7 +271,7 @@
   <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
     <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
       <div class="tag-clouds">
-        <a href="/tags/2/" style="font-size: 0.6em;">2</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 0.6em;">测试</a>
+        <a href="/tags/night-pupil%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/" style="font-size: 0.6em;">night-pupil的第一篇blog</a>
       </div>
   </aside>
 
@@ -305,13 +285,7 @@
         
           
           
-            <a class="list-group-item" href="/002/"><i class="fa  fa-book"></i> 2</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/001/"><i class="fa  fa-book"></i> 测试</a>
+            <a class="list-group-item" href="/001/"><i class="fa  fa-book"></i> night-pupil的第一篇blog</a>
             
           
         
@@ -362,7 +336,7 @@
                         </div>
                         <div>
                             <li>Powered by <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a></li>
-                            <li>Hosted on <a href="https://github.io" target="_blank">Github Pages</a></li>
+                            <li>Hosted on <a href="https://github.com/night-pupil" target="_blank">Github Pages</a></li>
                         </div>
                         <div>
                             
@@ -387,6 +361,10 @@
                     </div>
                 
                 
+                    <div class="box theme-box" id="snow-switch">
+                        <span class="fa fa-snowflake-o"></span>
+                    </div>
+                
                 
             </div>
             <div class="box gotop-box">
@@ -407,6 +385,11 @@
     window.kr.notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));
     window.kr.siteRoot = "/";
 </script>
+
+    <div>
+        <canvas id="snow"></canvas>
+        <script async src="/js/snow.min.js"></script>
+    </div>
 
 
     <script async src="/js/candy.min.js"></script>
